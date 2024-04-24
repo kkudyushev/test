@@ -27,7 +27,7 @@
                         Console.WriteLine(new Subtraction().Calculate(a,b));
                         break;
                     case "+":
-                        Console.WriteLine(a + b);
+                        Console.WriteLine(new Addition().Calculate(a, b));
                         break;
                 }
             } catch (Exception ex)
