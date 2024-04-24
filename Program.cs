@@ -24,7 +24,7 @@
                         Console.WriteLine(new Division().Calculate(a,b));
                         break;
                     case "-":
-                        Console.WriteLine(a - b);
+                        Console.WriteLine(new Subtraction().Calculate(a,b));
                         break;
                     case "+":
                         Console.WriteLine(a + b);
