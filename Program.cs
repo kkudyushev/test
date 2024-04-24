@@ -18,7 +18,7 @@
                 switch (c)
                 {
                     case "*":
-                        Console.WriteLine(a * b);
+                        Console.WriteLine(new folded().Calculate(a, b));
                         break;
                     case "/":
                         Console.WriteLine(a / b);
