@@ -21,7 +21,7 @@
                         Console.WriteLine(new folded().Calculate(a, b));
                         break;
                     case "/":
-                        Console.WriteLine(a / b);
+                        Console.WriteLine(new Division().Calculate(a,b));
                         break;
                     case "-":
                         Console.WriteLine(a - b);
